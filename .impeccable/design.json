@@ -1,0 +1,507 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-29T22:28:12Z",
+  "title": "Design System: Kivou",
+  "extensions": {
+    "colorMeta": {
+      "blue": {
+        "role": "primary",
+        "displayName": "blue",
+        "tonalRamp": [
+          "oklch(15% 0.1930 258.12)",
+          "oklch(26.43% 0.1930 258.12)",
+          "oklch(37.86% 0.1930 258.12)",
+          "oklch(49.29% 0.1930 258.12)",
+          "oklch(60.71% 0.1930 258.12)",
+          "oklch(72.14% 0.1930 258.12)",
+          "oklch(83.57% 0.1930 258.12)",
+          "oklch(95% 0.1930 258.12)"
+        ]
+      },
+      "bg": {
+        "role": "neutral",
+        "displayName": "bg",
+        "tonalRamp": [
+          "oklch(15% 0.0066 286.27)",
+          "oklch(26.43% 0.0066 286.27)",
+          "oklch(37.86% 0.0066 286.27)",
+          "oklch(49.29% 0.0066 286.27)",
+          "oklch(60.71% 0.0066 286.27)",
+          "oklch(72.14% 0.0066 286.27)",
+          "oklch(83.57% 0.0066 286.27)",
+          "oklch(95% 0.0066 286.27)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "surface",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(26.43% 0.0000 89.88)",
+          "oklch(37.86% 0.0000 89.88)",
+          "oklch(49.29% 0.0000 89.88)",
+          "oklch(60.71% 0.0000 89.88)",
+          "oklch(72.14% 0.0000 89.88)",
+          "oklch(83.57% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "ink",
+        "tonalRamp": [
+          "oklch(15% 0.0276 259.95)",
+          "oklch(26.43% 0.0276 259.95)",
+          "oklch(37.86% 0.0276 259.95)",
+          "oklch(49.29% 0.0276 259.95)",
+          "oklch(60.71% 0.0276 259.95)",
+          "oklch(72.14% 0.0276 259.95)",
+          "oklch(83.57% 0.0276 259.95)",
+          "oklch(95% 0.0276 259.95)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "muted",
+        "tonalRamp": [
+          "oklch(15% 0.0262 260.67)",
+          "oklch(26.43% 0.0262 260.67)",
+          "oklch(37.86% 0.0262 260.67)",
+          "oklch(49.29% 0.0262 260.67)",
+          "oklch(60.71% 0.0262 260.67)",
+          "oklch(72.14% 0.0262 260.67)",
+          "oklch(83.57% 0.0262 260.67)",
+          "oklch(95% 0.0262 260.67)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "line",
+        "tonalRamp": [
+          "oklch(15% 0.0109 280.46)",
+          "oklch(26.43% 0.0109 280.46)",
+          "oklch(37.86% 0.0109 280.46)",
+          "oklch(49.29% 0.0109 280.46)",
+          "oklch(60.71% 0.0109 280.46)",
+          "oklch(72.14% 0.0109 280.46)",
+          "oklch(83.57% 0.0109 280.46)",
+          "oklch(95% 0.0109 280.46)"
+        ]
+      },
+      "glass": {
+        "role": "neutral",
+        "displayName": "glass",
+        "tonalRamp": [
+          "oklch(15% 0.0040 286.33)",
+          "oklch(26.43% 0.0040 286.33)",
+          "oklch(37.86% 0.0040 286.33)",
+          "oklch(49.29% 0.0040 286.33)",
+          "oklch(60.71% 0.0040 286.33)",
+          "oklch(72.14% 0.0040 286.33)",
+          "oklch(83.57% 0.0040 286.33)",
+          "oklch(95% 0.0040 286.33)"
+        ]
+      },
+      "selected": {
+        "role": "neutral",
+        "displayName": "selected",
+        "tonalRamp": [
+          "oklch(15% 0.0187 265.98)",
+          "oklch(26.43% 0.0187 265.98)",
+          "oklch(37.86% 0.0187 265.98)",
+          "oklch(49.29% 0.0187 265.98)",
+          "oklch(60.71% 0.0187 265.98)",
+          "oklch(72.14% 0.0187 265.98)",
+          "oklch(83.57% 0.0187 265.98)",
+          "oklch(95% 0.0187 265.98)"
+        ]
+      },
+      "switch-on": {
+        "role": "status",
+        "displayName": "switch on",
+        "tonalRamp": [
+          "oklch(15% 0.1187 154.46)",
+          "oklch(26.43% 0.1187 154.46)",
+          "oklch(37.86% 0.1187 154.46)",
+          "oklch(49.29% 0.1187 154.46)",
+          "oklch(60.71% 0.1187 154.46)",
+          "oklch(72.14% 0.1187 154.46)",
+          "oklch(83.57% 0.1187 154.46)",
+          "oklch(95% 0.1187 154.46)"
+        ]
+      },
+      "dark-bg": {
+        "role": "neutral",
+        "displayName": "dark bg",
+        "tonalRamp": [
+          "oklch(15% 0.0105 268.16)",
+          "oklch(26.43% 0.0105 268.16)",
+          "oklch(37.86% 0.0105 268.16)",
+          "oklch(49.29% 0.0105 268.16)",
+          "oklch(60.71% 0.0105 268.16)",
+          "oklch(72.14% 0.0105 268.16)",
+          "oklch(83.57% 0.0105 268.16)",
+          "oklch(95% 0.0105 268.16)"
+        ]
+      },
+      "dark-surface": {
+        "role": "neutral",
+        "displayName": "dark surface",
+        "tonalRamp": [
+          "oklch(15% 0.0139 267.02)",
+          "oklch(26.43% 0.0139 267.02)",
+          "oklch(37.86% 0.0139 267.02)",
+          "oklch(49.29% 0.0139 267.02)",
+          "oklch(60.71% 0.0139 267.02)",
+          "oklch(72.14% 0.0139 267.02)",
+          "oklch(83.57% 0.0139 267.02)",
+          "oklch(95% 0.0139 267.02)"
+        ]
+      },
+      "dark-ink": {
+        "role": "neutral",
+        "displayName": "dark ink",
+        "tonalRamp": [
+          "oklch(15% 0.0070 268.55)",
+          "oklch(26.43% 0.0070 268.55)",
+          "oklch(37.86% 0.0070 268.55)",
+          "oklch(49.29% 0.0070 268.55)",
+          "oklch(60.71% 0.0070 268.55)",
+          "oklch(72.14% 0.0070 268.55)",
+          "oklch(83.57% 0.0070 268.55)",
+          "oklch(95% 0.0070 268.55)"
+        ]
+      },
+      "dark-muted": {
+        "role": "neutral",
+        "displayName": "dark muted",
+        "tonalRamp": [
+          "oklch(15% 0.0244 264.42)",
+          "oklch(26.43% 0.0244 264.42)",
+          "oklch(37.86% 0.0244 264.42)",
+          "oklch(49.29% 0.0244 264.42)",
+          "oklch(60.71% 0.0244 264.42)",
+          "oklch(72.14% 0.0244 264.42)",
+          "oklch(83.57% 0.0244 264.42)",
+          "oklch(95% 0.0244 264.42)"
+        ]
+      },
+      "dark-line": {
+        "role": "neutral",
+        "displayName": "dark line",
+        "tonalRamp": [
+          "oklch(15% 0.0207 262.60)",
+          "oklch(26.43% 0.0207 262.60)",
+          "oklch(37.86% 0.0207 262.60)",
+          "oklch(49.29% 0.0207 262.60)",
+          "oklch(60.71% 0.0207 262.60)",
+          "oklch(72.14% 0.0207 262.60)",
+          "oklch(83.57% 0.0207 262.60)",
+          "oklch(95% 0.0207 262.60)"
+        ]
+      },
+      "dark-blue": {
+        "role": "primary",
+        "displayName": "dark blue",
+        "tonalRamp": [
+          "oklch(15% 0.1122 260.16)",
+          "oklch(26.43% 0.1122 260.16)",
+          "oklch(37.86% 0.1122 260.16)",
+          "oklch(49.29% 0.1122 260.16)",
+          "oklch(60.71% 0.1122 260.16)",
+          "oklch(72.14% 0.1122 260.16)",
+          "oklch(83.57% 0.1122 260.16)",
+          "oklch(95% 0.1122 260.16)"
+        ]
+      },
+      "dark-glass": {
+        "role": "neutral",
+        "displayName": "dark glass",
+        "tonalRamp": [
+          "oklch(15% 0.0177 266.31)",
+          "oklch(26.43% 0.0177 266.31)",
+          "oklch(37.86% 0.0177 266.31)",
+          "oklch(49.29% 0.0177 266.31)",
+          "oklch(60.71% 0.0177 266.31)",
+          "oklch(72.14% 0.0177 266.31)",
+          "oklch(83.57% 0.0177 266.31)",
+          "oklch(95% 0.0177 266.31)"
+        ]
+      },
+      "dark-selected": {
+        "role": "neutral",
+        "displayName": "dark selected",
+        "tonalRamp": [
+          "oklch(15% 0.0485 262.41)",
+          "oklch(26.43% 0.0485 262.41)",
+          "oklch(37.86% 0.0485 262.41)",
+          "oklch(49.29% 0.0485 262.41)",
+          "oklch(60.71% 0.0485 262.41)",
+          "oklch(72.14% 0.0485 262.41)",
+          "oklch(83.57% 0.0485 262.41)",
+          "oklch(95% 0.0485 262.41)"
+        ]
+      },
+      "dark-primary": {
+        "role": "neutral",
+        "displayName": "dark primary",
+        "tonalRamp": [
+          "oklch(15% 0.1799 261.44)",
+          "oklch(26.43% 0.1799 261.44)",
+          "oklch(37.86% 0.1799 261.44)",
+          "oklch(49.29% 0.1799 261.44)",
+          "oklch(60.71% 0.1799 261.44)",
+          "oklch(72.14% 0.1799 261.44)",
+          "oklch(83.57% 0.1799 261.44)",
+          "oklch(95% 0.1799 261.44)"
+        ]
+      },
+      "island-surface": {
+        "role": "neutral",
+        "displayName": "island surface",
+        "tonalRamp": [
+          "oklch(15% 0.0328 261.64)",
+          "oklch(26.43% 0.0328 261.64)",
+          "oklch(37.86% 0.0328 261.64)",
+          "oklch(49.29% 0.0328 261.64)",
+          "oklch(60.71% 0.0328 261.64)",
+          "oklch(72.14% 0.0328 261.64)",
+          "oklch(83.57% 0.0328 261.64)",
+          "oklch(95% 0.0328 261.64)"
+        ]
+      },
+      "island-ink": {
+        "role": "neutral",
+        "displayName": "island ink",
+        "tonalRamp": [
+          "oklch(15% 0.0067 97.35)",
+          "oklch(26.43% 0.0067 97.35)",
+          "oklch(37.86% 0.0067 97.35)",
+          "oklch(49.29% 0.0067 97.35)",
+          "oklch(60.71% 0.0067 97.35)",
+          "oklch(72.14% 0.0067 97.35)",
+          "oklch(83.57% 0.0067 97.35)",
+          "oklch(95% 0.0067 97.35)"
+        ]
+      },
+      "island-muted": {
+        "role": "neutral",
+        "displayName": "island muted",
+        "tonalRamp": [
+          "oklch(15% 0.0240 262.09)",
+          "oklch(26.43% 0.0240 262.09)",
+          "oklch(37.86% 0.0240 262.09)",
+          "oklch(49.29% 0.0240 262.09)",
+          "oklch(60.71% 0.0240 262.09)",
+          "oklch(72.14% 0.0240 262.09)",
+          "oklch(83.57% 0.0240 262.09)",
+          "oklch(95% 0.0240 262.09)"
+        ]
+      },
+      "island-accent": {
+        "role": "primary",
+        "displayName": "island accent",
+        "tonalRamp": [
+          "oklch(15% 0.0869 265.78)",
+          "oklch(26.43% 0.0869 265.78)",
+          "oklch(37.86% 0.0869 265.78)",
+          "oklch(49.29% 0.0869 265.78)",
+          "oklch(60.71% 0.0869 265.78)",
+          "oklch(72.14% 0.0869 265.78)",
+          "oklch(83.57% 0.0869 265.78)",
+          "oklch(95% 0.0869 265.78)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "body": {
+        "displayName": "System body",
+        "purpose": "Workspace content and platform form controls."
+      },
+      "headline": {
+        "displayName": "Large title",
+        "purpose": "Section hierarchy; home has responsive greeting overrides."
+      },
+      "title": {
+        "displayName": "Mission title",
+        "purpose": "Editable mission name."
+      },
+      "label": {
+        "displayName": "Form label",
+        "purpose": "Visible field labels."
+      },
+      "island": {
+        "displayName": "Companion text",
+        "purpose": "Separate dark island typography."
+      }
+    },
+    "shadows": [
+      {
+        "name": "composer",
+        "value": "0 2px 6px #15243905",
+        "purpose": "Faint separation of the opaque composer."
+      },
+      {
+        "name": "model-control",
+        "value": "inset 0 1px 0 #ffffffaf,0 3px 15px #17203008",
+        "purpose": "Raised translucent model control."
+      },
+      {
+        "name": "floating-tabs",
+        "value": "0 8px 30px #28395118,inset 0 1px 0 #ffffffbd",
+        "purpose": "Separate bottom navigation from scroll content."
+      },
+      {
+        "name": "notice",
+        "value": "0 10px 30px #00000022",
+        "purpose": "Dismissible status notice."
+      },
+      {
+        "name": "island",
+        "value": "inset 0 1px 0 #ffffff42",
+        "purpose": "Companion top edge."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(.23,1,.32,1)",
+        "purpose": "Press, switch and companion reveal."
+      },
+      {
+        "name": "button-color",
+        "value": "140ms ease",
+        "purpose": "Background feedback."
+      },
+      {
+        "name": "button-press",
+        "value": "120ms cubic-bezier(.23,1,.32,1)",
+        "purpose": "Press scale to .97."
+      },
+      {
+        "name": "switch",
+        "value": "160ms",
+        "purpose": "Enabled fill and thumb travel."
+      },
+      {
+        "name": "island-reveal",
+        "value": "180ms cubic-bezier(.23,1,.32,1)",
+        "purpose": "Pointer-only opacity/translateY(-4px)/scale(.98) reveal; keyboard instant."
+      },
+      {
+        "name": "working-pulse",
+        "value": "1.6s ease-in-out infinite",
+        "purpose": "Indicator opacity reduces to .35 at midpoint; disabled for reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "intermediate-max",
+        "value": "900px"
+      },
+      {
+        "name": "narrow-max",
+        "value": "620px"
+      }
+    ],
+    "tonalRampNote": "Eight-step OKLCH visualization ramps are synthesized from each source color's hue/chroma; they are not application tokens. Alpha is omitted in ramp previews. DESIGN.md owns exact source colors.",
+    "provenance": {
+      "sources": [
+        "app/style.css",
+        "app/island.css",
+        "app/index.html",
+        "app/island.html"
+      ],
+      "scope": "Observed development starter; snippets are isolated representative markup, not native bridge functionality."
+    }
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Main save or send action; send uses its own narrower padding.",
+      "html": "<button class=\"ds-button ds-primary\">Save provider</button>",
+      "css": ".ds-button{font:600 15px -apple-system,BlinkMacSystemFont,'Segoe UI Variable','Segoe UI',sans-serif;border:0;cursor:pointer;min-height:44px;padding:11px 21px;border-radius:24px;transition:background-color 140ms ease,transform 120ms cubic-bezier(.23,1,.32,1)}.ds-primary{background:var(--blue,#0765d8);color:#fff}.ds-primary:hover{background:#0759bc}.ds-button:active{transform:scale(.97)}.ds-button:focus-visible,.ds-input:focus-visible,.ds-nav button:focus-visible,.ds-switch:focus-visible,.ds-island:focus-visible{outline:3px solid var(--blue,#0765d8);outline-offset:3px}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}"
+    },
+    {
+      "name": "Plain action",
+      "kind": "button",
+      "refersTo": "button-plain",
+      "description": "Secondary text action with a visible press area.",
+      "html": "<button class=\"ds-button\">Show desktop island</button>",
+      "css": ".ds-button{font:500 13px -apple-system,BlinkMacSystemFont,'Segoe UI Variable','Segoe UI',sans-serif;color:var(--blue,#0765d8);background:transparent;border:0;border-radius:13px;min-height:44px;padding:10px 14px;cursor:pointer;transition:background-color 140ms ease,transform 120ms cubic-bezier(.23,1,.32,1)}.ds-button:hover{background:#e4eaf5}.ds-button:active{transform:scale(.97);background:#dce5f3}.ds-button:focus-visible,.ds-input:focus-visible,.ds-nav button:focus-visible,.ds-switch:focus-visible,.ds-island:focus-visible{outline:3px solid var(--blue,#0765d8);outline-offset:3px}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}"
+    },
+    {
+      "name": "Settings input",
+      "kind": "input",
+      "description": "Labeled vertical endpoint field within an opaque settings group.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-base\">API base URL</label><input class=\"ds-input\" id=\"ds-base\" type=\"url\" placeholder=\"https://your-provider.example/v1\"></div>",
+      "css": ".ds-field{padding:12px 18px;background:var(--surface,#fff);color:var(--ink,#18202d);border-radius:18px;font:15px -apple-system,BlinkMacSystemFont,'Segoe UI Variable','Segoe UI',sans-serif;display:flex;flex-direction:column;gap:5px}.ds-input{font:14px -apple-system,BlinkMacSystemFont,'Segoe UI Variable','Segoe UI',sans-serif;padding:10px 0;border:0;background:transparent;color:var(--ink,#18202d);caret-color:var(--blue,#0765d8);width:100%;min-width:0}.ds-input::placeholder{color:var(--muted,#5f6877);opacity:1}.ds-button:focus-visible,.ds-input:focus-visible,.ds-nav button:focus-visible,.ds-switch:focus-visible,.ds-island:focus-visible{outline:3px solid var(--blue,#0765d8);outline-offset:3px}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "description": "A representative selected destination from the four labeled destinations.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main sections\"><button aria-current=\"page\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m3 10 9-7 9 7v10H3Z M9 20v-7h6v7\"/></svg><span>Home</span></button><button>Missions</button><button>Memory</button><button>Settings</button></nav>",
+      "css": ".ds-nav{display:flex;flex-direction:column;gap:5px;padding:15px;background:var(--glass,rgba(252,252,255,.82));backdrop-filter:blur(22px) saturate(1.25);border-radius:18px}.ds-nav button{display:flex;align-items:center;gap:12px;font:500 15px -apple-system,BlinkMacSystemFont,'Segoe UI Variable','Segoe UI',sans-serif;color:var(--ink,#18202d);padding:11px 15px;min-height:48px;text-align:left;background:transparent;border:0;border-radius:13px;cursor:pointer}.ds-nav button[aria-current]{background:var(--selected,#e8eefb);font-weight:600}.ds-nav button:hover{background:var(--selected,#e8eefb)}.ds-nav button:active{transform:scale(.97)}.ds-nav svg{width:23px;height:23px;fill:none;stroke:var(--blue,#0765d8);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.ds-button:focus-visible,.ds-input:focus-visible,.ds-nav button:focus-visible,.ds-switch:focus-visible,.ds-island:focus-visible{outline:3px solid var(--blue,#0765d8);outline-offset:3px}@media(prefers-reduced-transparency:reduce),(prefers-contrast:more){.ds-nav{background:var(--surface,#fff);backdrop-filter:none}}"
+    },
+    {
+      "name": "Grouped content",
+      "kind": "card",
+      "refersTo": "group",
+      "description": "Opaque grouped connection state with supporting copy.",
+      "html": "<div class=\"ds-group\"><strong>No services connected</strong><p>MCP tools and a separately authorized Gmail connection are planned.</p></div>",
+      "css": ".ds-group{background:var(--surface,#fff);color:var(--ink,#18202d);border-radius:18px;padding:17px 19px;font:15px -apple-system,BlinkMacSystemFont,'Segoe UI Variable','Segoe UI',sans-serif}.ds-group strong{font-weight:500}.ds-group p{font-size:14px;color:var(--muted,#5f6877);line-height:1.7;margin-bottom:0}"
+    },
+    {
+      "name": "Labeled switch",
+      "kind": "custom",
+      "description": "Native checkbox semantics with the source's green enabled state.",
+      "html": "<label class=\"ds-switch-row\">Include my memory<input class=\"ds-switch\" type=\"checkbox\"></label>",
+      "css": ".ds-switch-row{display:flex;align-items:center;justify-content:space-between;gap:14px;font:13px -apple-system,BlinkMacSystemFont,'Segoe UI Variable','Segoe UI',sans-serif;color:var(--muted,#5f6877)}.ds-switch{appearance:none;position:relative;width:44px;height:27px;flex-shrink:0;padding:0;border:0;border-radius:16px;background:#c7cbd2;cursor:pointer;transition:background-color 160ms ease}.ds-switch::before{content:'';position:absolute;width:23px;height:23px;top:2px;left:2px;border-radius:50%;background:#fff;box-shadow:0 2px 5px #192b4725;transition:transform 160ms cubic-bezier(.23,1,.32,1)}.ds-switch:checked{background:#24824e}.ds-switch:checked::before{transform:translateX(17px)}.ds-button:focus-visible,.ds-input:focus-visible,.ds-nav button:focus-visible,.ds-switch:focus-visible,.ds-island:focus-visible{outline:3px solid var(--blue,#0765d8);outline-offset:3px}@media(prefers-reduced-motion:reduce){.ds-switch,.ds-switch::before{transition:none}}"
+    },
+    {
+      "name": "Compact companion",
+      "kind": "custom",
+      "refersTo": "island",
+      "description": "Compact visual toggle; full expansion requires the native application bridge.",
+      "html": "<button class=\"ds-island\" aria-expanded=\"false\"><svg viewBox=\"0 0 48 48\" aria-hidden=\"true\"><path d=\"M12 9v30M14 27 35 9M21 21l16 18\" stroke=\"currentColor\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"37\" cy=\"12\" r=\"3\" fill=\"currentColor\"/></svg><span>Kivou is here</span><i></i></button>",
+      "css": ".ds-island{display:flex;align-items:center;gap:12px;width:264px;height:48px;padding:0 16px;border:0;border-radius:24px;background:rgba(28,37,53,.95);color:#f6f5f0;backdrop-filter:blur(18px) saturate(1.25);box-shadow:inset 0 1px 0 #ffffff42;font:12px 'Segoe UI',system-ui,sans-serif;cursor:pointer;text-align:left}.ds-island svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:2}.ds-island span{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ds-island i{width:6px;height:6px;border-radius:50%;background:#abc5ff}.ds-island:hover{background:#2d3b54}.ds-island:focus-visible{outline:2px solid #abc5ff;outline-offset:-3px}@media(prefers-reduced-transparency:reduce),(prefers-contrast:more){.ds-island{background:#1c2535;backdrop-filter:none;outline:1px solid #c9d6ec}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "A little room to think",
+    "overview": "Kivou combines a quiet, opaque work canvas with a small translucent companion. The owner's chosen iOS direction appears in large titles, inset grouped settings, labeled switches and four stable destinations. Wide Windows layouts adapt those destinations to a sidebar; narrow windows use floating bottom tabs.\n\nThe material is a custom Electron/CSS approximation. The original K mark and rayaneDR attribution remain Kivou's identity. The system does not imply Apple affiliation, native Apple lensing or desktop blur through the transparent island. The north star uses existing interface language rather than introducing a new brand metaphor.",
+    "keyCharacteristics": [
+      "System typography and restrained blue actions.",
+      "Opaque conversation, permission and settings surfaces.",
+      "Persistent labeled navigation and an optional compact companion.",
+      "Brief press feedback, explicit reduced motion and opaque fallbacks."
+    ],
+    "rules": [
+      {
+        "name": "The Readable Canvas Rule",
+        "body": "Keep conversation and permission content on opaque surfaces; reserve translucent material for navigation, the model control and companion.",
+        "section": "colors"
+      },
+      {
+        "name": "The Opaque Fallback Rule",
+        "body": "Preserve the reduce-transparency setting and the reduced-transparency/increased-contrast media fallbacks. Workspace material becomes the solid surface; the island becomes solid dark with an outline.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** retain the four labeled destinations across widths.",
+      "**Do** keep consent, provider help and disconnected states readable and truthful.",
+      "**Do** preserve keyboard focus, reduced motion and opaque material fallbacks.",
+      "**Do** use original Kivou identity assets and system typography."
+    ],
+    "donts": [
+      "**Don't** describe CSS translucency as native Apple Liquid Glass or measured desktop lensing.",
+      "**Don't** add invented connections, missions, customer metrics or account state.",
+      "**Don't** restore the superseded paper/citron palette or external DM Sans dependency.",
+      "**Don't** hide required actions or text behind fixed navigation."
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "appId":"io.github.rayanedr.kivou.independent",
+  "productName":"Kivou",
+  "electronVersion":"43.4.0",
+  "directories":{"output":"dist"},
+  "files":["app/**/*","desktop/**/*","core/**/*","package.json","LICENSE"],
+  "asar":true,
+  "win":{"target":["portable"],"icon":"app/icon.ico","signAndEditExecutable":false},
+  "portable":{"artifactName":"Kivou.exe","requestExecutionLevel":"user","unpackDirName":false,"useZip":true}
+}

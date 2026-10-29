@@ -1,0 +1,19 @@
+feature,area,priority,reference,implementation,notes
+Independent application code,foundation,must,user instruction,yes,Original app desktop and core; no Goose runtime or source
+Durable local missions,core,must,OpenCode and Grok Bot,yes,JSON store with interrupted-state recovery
+Explicit per-request memory,context,must,AnythingLLM and LibreChat,yes,Memory snapshot recorded in run receipt
+Inspectable editable memory,context,must,AnythingLLM and Hermes,yes,Plaintext local notes; previous snapshots remain in history
+Codex subscription adapter,models,must,OpenAI official exec docs,yes,One actual direct model request completed
+Multiple API protocols,models,must,owner instruction,partial,Four API adapters have synthetic protocol tests; settings UI passed; live non-Codex account tests pending
+Encrypted API key storage,models,must,owner instruction,yes,Windows safeStorage encrypted and decrypted a synthetic key in actual desktop checks; separate vault fixtures passed
+Small native island,desktop,must,owner instruction,partial,264x48 prototype; focus and multi-monitor QA still needed
+Mission export integrity,outputs,must,context portability reports,yes,New Markdown JSON receipt bundle per export
+Gmail read-only catch-up,actions,must,owner instruction,no,Requires separate real account connection
+Reviewed email sending,actions,must,owner instruction,no,Exact content approval and observed receipt required
+MCP tool connections,tools,must,owner instruction,no,Model selection is not MCP connectivity
+External action deduplication,actions,must,retry and recovery reports,no,Uncertain sends require reconciliation before retry
+Local history pagination,performance,should,Hermes memory reports,no,Current preview bounds exchanges and mission count but snapshots all stored missions
+Recurring work,automation,should,Grok Bot and OpenClaw,no,No unattended Kivou scheduler configured
+Voice input,voice,could,desktop companion references,no,Optional later capability
+Phone calls,voice,could,owner vision,no,Requires provider access authorization and actual cost
+Team workspaces,teams,could,Grok Bot and Dify,no,Later business hypothesis

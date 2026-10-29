@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-29T16:04:07.865Z",
+  "passed": true,
+  "scope": "Development independent Electron application",
+  "widths": [
+    1440,
+    900,
+    390
+  ],
+  "realNativeIsland": {
+    "width": 264,
+    "height": 48,
+    "expanded": true,
+    "escapeCollapsed": true,
+    "collapseRestoresKeyboardFocus": true
+  },
+  "explicitMemoryPersisted": true,
+  "modelSettingsUi": true,
+  "apiFormWidths": [
+    1440,
+    390
+  ],
+  "ollamaKeylessStateCaptured": true,
+  "actualWindowsEncryption": true,
+  "syntheticKeyOnly": true,
+  "apiModelCalls": 0,
+  "reducedTransparencyToggle": true,
+  "darkModeCaptured": true,
+  "unicode": true,
+  "contextPreview": true,
+  "providerConsentGate": true,
+  "realModelCalls": 0,
+  "reopenedCompletedMission": false,
+  "rendererErrors": []
+}

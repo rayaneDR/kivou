@@ -1,0 +1,10 @@
+node_modules/
+out/
+dist/
+releases/
+qa/private/
+*.log
+.env*
+
+research/screens/
+.impeccable/review/

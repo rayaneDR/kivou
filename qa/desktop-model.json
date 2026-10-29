@@ -1,0 +1,29 @@
+{
+  "at": "2026-10-29T15:58:19.425Z",
+  "passed": true,
+  "scope": "Development independent Electron application",
+  "widths": [
+    1440,
+    900,
+    390
+  ],
+  "realNativeIsland": {
+    "width": 264,
+    "height": 48,
+    "expanded": true,
+    "escapeCollapsed": true
+  },
+  "explicitMemoryPersisted": true,
+  "modelSettingsUi": true,
+  "actualWindowsEncryption": true,
+  "syntheticKeyOnly": true,
+  "apiModelCalls": 0,
+  "reducedTransparencyToggle": true,
+  "darkModeCaptured": true,
+  "unicode": true,
+  "contextPreview": true,
+  "providerConsentGate": true,
+  "realModelCalls": 1,
+  "reopenedCompletedMission": true,
+  "rendererErrors": []
+}

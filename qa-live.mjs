@@ -1,0 +1,14 @@
+import {Engine} from './core/engine.mjs';
+import path from 'node:path';
+import fs from 'node:fs';
+const root=path.resolve('qa/private/provider-live-'+Date.now());
+const engine=new Engine(root);
+const probe=await engine.provider.probe();
+if(!probe.ready)throw new Error(probe.message);
+const mission=engine.create('Independent Kivou launch');
+await engine.send({id:mission.id,message:'Give one short original greeting for a creator opening Kivou. Do not use tools.',consent:true});
+await engine.active?.work;
+const item=engine.state().missions[0];
+if(item.status!=='completed')throw new Error(item.error);
+fs.writeFileSync('qa/provider-live.json',JSON.stringify({at:new Date().toISOString(),passed:true,scope:'Independent Node core, direct installed Codex CLI; no Goose or ACP',provider:probe.version,status:item.status,realModelCalls:1,responseCharacters:item.messages.at(-1).text.length,usage:item.receipts[0].usage,personalOrClientData:false},null,2));
+console.log(JSON.stringify({status:item.status,characters:item.messages.at(-1).text.length}));

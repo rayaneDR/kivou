@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-29T13:16:49.538Z",
+  "passed": true,
+  "scope": "Independent Node core, direct installed Codex CLI; no Goose or ACP",
+  "provider": "codex-cli 0.165.0-alpha.1.2",
+  "status": "completed",
+  "realModelCalls": 1,
+  "responseCharacters": 49,
+  "usage": {
+    "input_tokens": 16279,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 17,
+    "reasoning_output_tokens": 0
+  },
+  "personalOrClientData": false
+}
